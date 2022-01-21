@@ -1,0 +1,36 @@
+    /* .container{
+        width: 100%;
+        margin: 0 auto;
+    } */
+
+    body{
+        background-color: #D3DEDC;
+    }
+
+  .card, .list-group-item{
+      background-color: #92A9BD;
+  }
+
+  .input-tag{
+      width: 35%;
+      margin-left: 28%;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+  }
+
+  .logo-img{
+      border-radius: 70%;
+  }
+
+  @media(max-width:768px){
+    .input-tag{
+        width: 70%;
+        margin-left: 0;
+        margin-right: 5px;
+        font-size: 12px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+  }
